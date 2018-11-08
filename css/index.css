@@ -1,0 +1,50 @@
+.content {
+    height: 100vh;
+    padding-top: 75px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoIMG {
+    height: 80vh;
+}
+
+.Button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 35px;
+    display: inline-block;
+    height: 8vh;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 20vw;
+    background-color: #FA595B;
+    color: white;
+}
+
+@media (max-width:600px) {
+    .content {
+        height: 100vh;
+        padding-top: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    .LogoIMG {
+        width: 90vw;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .content {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .Button {
+        width: 80vw;
+    }
+}
